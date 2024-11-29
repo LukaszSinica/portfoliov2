@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <header className='sticky top-0 z-50 py-6 backdrop-blur-sm flex justify-between'>
-        <nav className='flex w-3/4 justify-between items-center'>
+        <nav className='flex w-3/4 items-center gap-8'>
             <a>home</a>
             <a>projects</a>
             <a>contact</a>

@@ -1,0 +1,32 @@
+{
+    "education": [
+      {
+        "name": "University of Applied Sciences in Elbląg",
+        "href": "https://study.ans-elblag.pl/",
+        "title": "Database Design and Application Software",
+        "logo": "/ans_logo.jpg",
+        "start": "Oct 2018",
+        "end": "Dec 2022",
+        "description": [
+          "Graduated with a Minor in Mathematics",
+          "President of Digipen Student Management Committee for freshman year",
+          "3-time recipient of the Dean's Honor List"
+        ],
+        "links": [
+          {
+            "name": "Final Year Project",
+            "href": "https://github.com/LukaszSinica/templateProject",
+            "icon": "globe"
+          }
+        ]
+      },
+      {
+        "name": "Team of Mechanical Schools in Elbląg",
+        "href": "https://zsm.elblag.pl/",
+        "title": "IT technician",
+        "logo": "/zsm_elblag.svg",
+        "start": "Sep 2014",
+        "end": "June 2018"
+      }
+    ]
+  }

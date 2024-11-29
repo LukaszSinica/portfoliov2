@@ -1,0 +1,40 @@
+{
+    "career": [
+      {
+        "name": "Koni IT",
+        "href": "https://www.koni.pl/",
+        "title": "Software Developer (Contract)",
+        "logo": "/koni.png",
+        "start": "June 2024",
+        "stop": "July 2024",
+        "description": [
+          "Maintainer for multiple sites for company’s clients including government systems",
+          "Talking to customers and swiftly fixing the problems they report"
+        ]
+      },
+      {
+        "name": "Paidwork.com",
+        "href": "https://www.paidwork.com/",
+        "title": "Software Developer (Contract)",
+        "logo": "/paidwork.jpg",
+        "start": "Apr 2023",
+        "end": "Jun 2023",
+        "description": [
+          "Responsible for project and implement scalable frontend, that users from all over the world uses giving them more personalized and good experience on the site",
+          "Management of monitoring process, identifying and swiftly fixing errors reported by support which increased stability and reliability of the system"
+        ]
+      },
+      {
+        "name": "Fotka.com",
+        "href": "https://fotka.com/",
+        "title": "Software Developer",
+        "logo": "/fotka.png",
+        "start": "Aug 2021",
+        "end": "July 2022",
+        "description": [
+          "Responsible for creating frontend components according to visualizations provided by the graphics team using React.js",
+          "Project and developed system for moderating avatars on the site which improved managing the content on the site"
+        ]
+      }
+    ]
+  }
