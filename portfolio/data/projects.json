@@ -1,0 +1,39 @@
+{
+    "projects": [
+      {
+        "name": "Sudoku game",
+        "description": "Java-based Sudoku game using JavaFX for its user interface featuring customizable difficulty levels",
+        "image": "/sudoku.png",
+        "tags": [
+          "Java",
+          "JavaFX",
+          "Maven"
+        ],
+        "links": [
+          {
+            "name": "Source",
+            "href": "https://github.com/LukaszSinica/Sudoku",
+            "icon": "github"
+          }
+        ]
+      },
+      {
+        "name": "Expense list",
+        "description": "The Expense List project is a TypeScript-based web application built using Next.js. It enables users to track their expenses, leveraging a modern tech stack that includes TailwindCSS for styling.",
+        "href": "https://expense-list-rho.vercel.app/",
+        "image": "/expense_list.png",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "TypeScript"
+        ],
+        "links": [
+          {
+            "name": "Website",
+            "href": "https://expense-list-rho.vercel.app/",
+            "icon": "globe"
+          }
+        ]
+      }
+    ]
+  }
