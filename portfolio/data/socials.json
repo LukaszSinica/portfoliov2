@@ -1,0 +1,19 @@
+{
+    "socials": [
+      {
+        "name": "LinkedIn",
+        "href": "https://linkedin.com/in/lukasz-sinica",
+        "icon": "linkedin"
+      },
+      {
+        "name": "GitHub",
+        "href": "https://github.com/LukaszSinica",
+        "icon": "github"
+      },
+      {
+        "name": "Email",
+        "href": "mailto:sinicalukasz@gmail.com",
+        "icon": "mail"
+      }
+    ]
+  }

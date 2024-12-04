@@ -34,6 +34,24 @@
             "icon": "globe"
           }
         ]
+      },
+      {
+        "name": "Portfolio 2024",
+        "description": "Portfolio made in 2024 in Next.js",
+        "href": "https://personal-website-git-main-lukaszs-projects-baa52474.vercel.app",
+        "image": "/portfolio.png",
+        "tags": [
+          "NextJS",
+          "TailwindCSS",
+          "TypeScript"
+        ],
+        "links": [
+          {
+            "name": "Website",
+            "href": "https://personal-website-git-main-lukaszs-projects-baa52474.vercel.app",
+            "icon": "globe"
+          }
+        ]
       }
     ]
   }

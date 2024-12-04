@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import Image from "next/image";
 
-export default function aboutme() {
+export default function AboutMe() {
   return (
     <section className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
         <div>
