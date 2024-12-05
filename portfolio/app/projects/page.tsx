@@ -1,10 +1,12 @@
 import Projects from "@/components/projects/projects";
+import Title from "@/components/ui/title";
+import { useTranslation } from "@/lib/utils";
 
-export default async function ProjectPage() {
+export default function ProjectPage() {
+
   return (
     <article className="mt-8 flex flex-col gap-8 pb-16">
-      <h1 className="title">my projects.</h1>
-
+      <Title text="my_projects"/>
       <Projects />
     </article>
   );

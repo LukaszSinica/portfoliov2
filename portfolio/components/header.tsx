@@ -1,6 +1,7 @@
 import ThemeToggle from '@/components/ui/themeToggler'
 import Link from 'next/link'
 import React from 'react'
+import LocalizeToggler from './ui/localizeToggler'
 
 export default function Header() {
 
@@ -11,6 +12,7 @@ export default function Header() {
             <Link href={"/projects"}>projects</Link>
             <Link href={"/contact"}>contact</Link>
        </nav>
+       <LocalizeToggler/>
        <ThemeToggle/>
 
     </header>
