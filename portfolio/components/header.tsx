@@ -14,7 +14,6 @@ export default function Header() {
        </nav>
        <LocalizeToggler/>
        <ThemeToggle/>
-
     </header>
   )
 }
