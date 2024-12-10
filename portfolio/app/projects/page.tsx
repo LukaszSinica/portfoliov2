@@ -1,6 +1,5 @@
 import Projects from "@/components/projects/projects";
 import Title from "@/components/ui/title";
-import { useTranslation } from "@/lib/utils";
 
 export default function ProjectPage() {
 
