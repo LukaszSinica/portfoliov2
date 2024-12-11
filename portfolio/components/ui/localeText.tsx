@@ -1,15 +1,11 @@
 "use client"
-import { TranslationKeys, useTranslation } from '@/lib/utils';
+import { TitleProps, useTranslation } from '@/lib/utils';
 import React from 'react'
 
-interface TitleProps {
-    text: TranslationKeys;
-}
-
-export default function LocaleText({text}: TitleProps) {
+export default function LocaleText({name}: TitleProps) {
     const { t } = useTranslation();
 
     return (
-        <span>{t(text)}</span>
+        <span>{t(name)}</span>
     )
 }
