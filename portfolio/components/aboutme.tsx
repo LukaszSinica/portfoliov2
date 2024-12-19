@@ -3,18 +3,20 @@ import { Download, GithubIcon, Linkedin, Mail } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import Image from "next/image";
+import Title from './ui/title';
+import LocaleText from './ui/localeText';
 
 export default function AboutMe() {
   return (
     <section className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
         <div>
-            <h1>Hi Lucas here </h1>
-            <p>26-year-old software developer from Poland</p>
-            <p>I like to develop full-stack, play games and trying out new things in life</p>
+            <Title name="hi"/>
+            <p><LocaleText name="about_me_1"/></p>
+            <p><LocaleText name="about_me_2"/></p>
             <section className="mt-8 flex items-center gap-8">
                 <Link href="/resume_en.pdf" target="_blank">
                 <Button variant="outline" className="hover:dark:text-white">
-                    <span className="font-semibold">resume </span>
+                    <LocaleText name="resume"/>
                     <Download className="dark:text-white" size={24}/>
                 </Button>
                 </Link>

@@ -1,7 +1,16 @@
 export const translations = {
     en: {
+      hi: 'Hi Lucas here',
+      about_me_1: 'I am a 26-year-old software developer from Poland.',
+      about_me_2: 'I like to develop full-stack, play games and trying out new things in life.',
       my_projects: 'My projects.',
       contact_me: 'Contact me.',
+      resume: 'resume',
+      header: {
+        home: 'home',
+        projects: 'projects',
+        contact: 'contact'
+      },
       email_directly: 'If you want to write to me directly, then hit me up on email sinicalukasz@gmail.com',
       projects: {
         "Sudoku game": {
@@ -19,8 +28,17 @@ export const translations = {
       }
     },
     pl: {
+      hi: 'Cześć mam na imię Łukasz',
+      about_me_1: 'Jestem 26-letnim programistą z Polski.',
+      about_me_2: 'Lubię rozwijać się w full-stack, grać w gry i próbować nowych rzeczy.',     
+      resume: 'CV', 
       my_projects: 'Moje projekty.',
       contact_me: 'Skontaktuj się ze mną.',
+      header: {
+        home: 'strona główna',
+        projects: 'projekty',
+        contact: 'kontakt'
+      },
       email_directly: 'Jeśli chcesz napisać do mnie bezpośrednio, napisz do mnie na adres sinicalukasz@gmail.com.',
       projects: {
         "Sudoku game": {
