@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import LocaleText from "./ui/localeText";
 
 type LinkWithIconProps = {
   href: string;
@@ -17,7 +18,7 @@ export default function LinkWithIcon({
   return (
     <Link href={href} className="link flex items-center gap-2 font-light">
       {position === "left" && icon}
-      <span>{text}</span>
+      <LocaleText name={"viewmore"}/>
       {position === "right" && icon}
     </Link>
   );

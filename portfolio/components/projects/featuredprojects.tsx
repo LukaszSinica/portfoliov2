@@ -2,6 +2,7 @@ import { ArrowRightIcon } from 'lucide-react'
 import React from 'react'
 import LinkWithIcon from '../linkwithicon'
 import Projects from './projects'
+import Title from '@/components/ui/title'
 
 const LIMIT = 2;
 
@@ -9,12 +10,12 @@ export default function FeaturedProjects() {
   return (
     <section className="flex flex-col gap-8">
         <div className="flex justify-between">
-        <h2 className="title text-2xl sm:text-3xl">featured projects</h2>
+        <span className='title text-2xl sm:text-3xl'><Title name={'projects.Featured'} /></span>
         <LinkWithIcon
             href="/projects"
             position="right"
             icon={<ArrowRightIcon className="size-5" />}
-            text="view more"
+            text="viewmore"
         />
         </div>
         <Projects limit={LIMIT} />

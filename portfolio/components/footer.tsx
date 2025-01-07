@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Socials from "./socials";
+import LocaleText from "./ui/localeText";
 
 export default function Footer() {
   return (
@@ -7,13 +8,13 @@ export default function Footer() {
       <Socials />
       <section className="mt-8 sm:mt-0">
         <p className="text-center text-xs text-muted-foreground">
-          <span>&copy; {new Date().getFullYear()}</span>{" "}
+          <LocaleText name="footer.copyright" />{" "}
           <Link className="link" href="/">
-            <span>sinicalukasz-it.pl</span>
+            sinicalukasz-it.pl
           </Link>
           {" | "}
           <Link className="link font-bold" href="/privacy">
-            privacy?
+            <LocaleText name="footer.privacy" />
           </Link>
         </p>
       </section>
