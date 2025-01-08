@@ -1,27 +1,27 @@
 {
-    "education": [
-      {
-        "name": "University of Applied Sciences in Elbląg",
-        "href": "https://study.ans-elblag.pl/",
-        "title": "Database Design and Application Software",
-        "logo": "/ans_logo.png",
-        "start": "Oct 2018",
-        "end": "Dec 2022",
-        "links": [
-          {
-            "name": "Final Year Project",
-            "href": "https://github.com/LukaszSinica/templateProject",
-            "icon": "globe"
-          }
-        ]
-      },
-      {
-        "name": "Team of Mechanical Schools in Elbląg",
-        "href": "https://zsm.elblag.pl/",
-        "title": "IT technician",
-        "logo": "/zsm_elblag.jpg",
-        "start": "Sep 2014",
-        "end": "June 2018"
-      }
-    ]
-  }
+  "education": [
+    {
+      "name": "university_of_applied_sciences_in_elblag",
+      "href": "https://study.ans-elblag.pl/",
+      "title": "database_design_and_application_software",
+      "logo": "/ans_logo.png",
+      "start": "oct_2018",
+      "end": "dec_2022",
+      "links": [
+        {
+          "name": "final_year_project",
+          "href": "https://github.com/LukaszSinica/templateProject",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "team_of_mechanical_schools_in_elblag",
+      "href": "https://zsm.elblag.pl/",
+      "title": "it_technician",
+      "logo": "/zsm_elblag.jpg",
+      "start": "sep_2014",
+      "end": "june_2018"
+    }
+  ]
+}

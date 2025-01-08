@@ -34,6 +34,55 @@ export const translations = {
       work: 'Work',
       education: 'Education'
     },
+    education: {
+      university_of_applied_sciences_in_elblag: {
+        name: "University of Applied Sciences in Elbląg",
+        title: "Database Design and Application Software",
+        start: "Oct 2018",
+        end: "Dec 2022",
+        links: {
+          final_year_project: "Final Year Project"
+        }
+      },
+      team_of_mechanical_schools_in_elblag: {
+        name: "Team of Mechanical Schools in Elbląg",
+        title: "IT technician",
+        start: "Sep 2014",
+        end: "June 2018"
+      }
+    },
+    career: {
+      koni_it: {
+        name: "Koni IT",
+        title: "Software Developer (Contract)",
+        start: "May 2024",
+        end: "July 2024",
+        description: {
+          maintainer_multiple_sites: "Maintainer for multiple sites for company’s clients including government systems",
+          talking_to_customers: "Talking to customers and swiftly fixing the problems they report"
+        }
+      },
+      paidwork_com: {
+        name: "Paidwork.com",
+        title: "Software Developer (Contract)",
+        start: "Jan 2024",
+        end: "Mar 2024",
+        description: {
+          responsible_for_project: "Responsible for project and implement scalable frontend, that users from all over the world uses giving them more personalized and good experience on the site",
+          management_of_monitoring: "Management of monitoring process, identifying and swiftly fixing errors reported by support which increased stability and reliability of the system"
+        }
+      },
+      fotka_com: {
+        name: "Fotka.com",
+        title: "Software Developer",
+        start: "Aug 2021",
+        end: "July 2022",
+        description: {
+          responsible_for_creating_frontend: "Responsible for creating frontend components according to visualizations provided by the graphics team using React.js",
+          project_and_developed_system: "Project and developed system for moderating avatars on the site which improved managing the content on the site"
+        }
+      }
+    },
     "viewmore": "view more"
   },
   pl: {
@@ -65,11 +114,60 @@ export const translations = {
     },
     footer: {
       privacy: 'prywatność?',
-      copyright: '© {year} sinicalukasz-it.pl'
+      copyright: '©2025'
     },
     tabs: {
       work: 'Praca',
       education: 'Edukacja'
+    },
+    education: {
+      university_of_applied_sciences_in_elblag: {
+        name: "Państwowa Wyższa Szkoła Zawodowa w Elblągu",
+        title: "Projektowanie baz danych i oprogramowanie użytkowe",
+        start: "Paź 2018",
+        end: "Gru 2022",
+        links: {
+          final_year_project: "Projekt końcowy"
+        }
+      },
+      team_of_mechanical_schools_in_elblag: {
+        name: "Zespół Szkół Mechanicznych w Elblągu",
+        title: "Technik informatyk",
+        start: "Wrz 2014",
+        end: "Cze 2018"
+      }
+    },
+    career: {
+      koni_it: {
+        name: "Koni IT",
+        title: "Programista (Kontrakt)",
+        start: "Maj 2024",
+        end: "Lip 2024",
+        description: {
+          maintainer_multiple_sites: "Utrzymanie wielu stron dla klientów firmy, w tym systemów rządowych",
+          talking_to_customers: "Rozmowy z klientami i szybkie rozwiązywanie zgłaszanych przez nich problemów"
+        }
+      },
+      paidwork_com: {
+        name: "Paidwork.com",
+        title: "Programista (Kontrakt)",
+        start: "Sty 2024",
+        end: "Mar 2024",
+        description: {
+          responsible_for_project: "Odpowiedzialny za projektowanie i wdrażanie skalowalnego frontendu, który użytkownicy z całego świata używają, zapewniając im bardziej spersonalizowane i dobre doświadczenia na stronie",
+          management_of_monitoring: "Zarządzanie procesem monitorowania, identyfikowanie i szybkie naprawianie błędów zgłaszanych przez wsparcie, co zwiększyło stabilność i niezawodność systemu"
+        }
+      },
+      fotka_com: {
+        name: "Fotka.com",
+        title: "Programista",
+        start: "Sie 2021",
+        end: "Lip 2022",
+        description: {
+          responsible_for_creating_frontend: "Odpowiedzialny za tworzenie komponentów frontendowych zgodnie z wizualizacjami dostarczonymi przez zespół graficzny przy użyciu React.js",
+          project_and_developed_system: "Projektowanie i rozwijanie systemu do moderowania awatarów na stronie, co poprawiło zarządzanie treścią na stronie"
+        }
+      }
     },
     "viewmore": "zobacz więcej"
   }
