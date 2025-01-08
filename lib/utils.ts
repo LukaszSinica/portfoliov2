@@ -22,8 +22,8 @@ type NestedKeys<T> = T extends object
 export type TranslationKeys = NestedKeys<typeof translations["en"]>;
 export type Translations = typeof translations;
 
-const resolveNestedKey = (obj: any, key: string): string | undefined => {
-  return key.split(".").reduce((acc, part) => acc && acc[part], obj);
+const resolveNestedKey = <T extends object>(obj: T, key: string): string | undefined => {
+  return key.split(".").reduce((acc, part) => (acc && acc[part as keyof typeof acc]) || undefined, obj as any);
 };
 
 export const useTranslation = () => {

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import Icon from "@/components/icon";
+import LocaleText from "../ui/localeText";
 
 interface Props {
   experience: Experience;
@@ -31,18 +32,18 @@ export default function TimelineItem({ experience }: Props) {
       <div className="flex flex-1 flex-col justify-start gap-1">
         {start && (
           <time className="text-xs text-muted-foreground">
-            <span>{start}</span>
+            <LocaleText name={start} />
             <span>{" - "}</span>
-            <span>{end ? end : "Present"}</span>
+            <LocaleText name={end ? end : "Present"} />
           </time>
         )}
-        <h2 className="font-semibold leading-none">{name}</h2>
-        {title && <p className="text-sm text-muted-foreground">{title}</p>}
+        <h2 className="font-semibold leading-none"><LocaleText name={name} /></h2>
+        {title && <p className="text-sm text-muted-foreground"><LocaleText name={title} /></p>}
         {description && (
           <ul className="ml-4 list-outside list-disc">
             {description.map((desc, i) => (
               <li key={i} className="prose pr-8 text-sm dark:prose-invert">
-                {desc}
+                <LocaleText name={desc} />
               </li>
             ))}
           </ul>
@@ -54,7 +55,7 @@ export default function TimelineItem({ experience }: Props) {
             <Link href={link.href} key={idx}>
               <Badge key={idx} title={link.name} className="flex gap-2">
                 <Icon name={link.icon} aria-hidden="true" className="size-3" />
-                {link.name}
+                <LocaleText name={link.name} />
               </Badge>
             </Link>
           ))}

@@ -1,5 +1,5 @@
 "use client"
-import { TitleProps, TranslationKeys, useTranslation } from '@/lib/utils';
+import { TitleProps, useTranslation } from '@/lib/utils';
 import React from 'react'
 
 
