@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+This is my current portfolio mostly inspired by [`Ang Wei Feng (Ted)`](https://github.com/tedawf) portfolio.
 
 ## Getting Started
 
