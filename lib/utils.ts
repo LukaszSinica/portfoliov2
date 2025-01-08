@@ -23,7 +23,12 @@ export type TranslationKeys = NestedKeys<typeof translations["en"]>;
 export type Translations = typeof translations;
 
 const resolveNestedKey = <T extends object>(obj: T, key: string): string | undefined => {
-  return key.split(".").reduce((acc, part) => (acc && acc[part as keyof typeof acc]) || undefined, obj as any);
+  return key.split(".").reduce((acc, part) => {
+    if (acc && typeof acc === 'object' && part in acc) {
+      return (acc as Record<string, unknown>)[part];
+    }
+    return undefined;
+  }, obj as unknown) as string | undefined;
 };
 
 export const useTranslation = () => {

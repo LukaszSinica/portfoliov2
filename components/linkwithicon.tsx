@@ -13,7 +13,6 @@ export default function LinkWithIcon({
   href,
   icon,
   position,
-  text,
 }: LinkWithIconProps) {
   return (
     <Link href={href} className="link flex items-center gap-2 font-light">
