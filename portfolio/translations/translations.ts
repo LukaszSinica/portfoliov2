@@ -28,7 +28,7 @@ export const translations = {
     },
     footer: {
       privacy: 'privacy?',
-      copyright: '© {year} sinicalukasz-it.pl'
+      copyright: '©2025'
     },
     tabs: {
       work: 'Work',
