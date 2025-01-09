@@ -13,7 +13,7 @@ export default function Projects({ limit }: Props) {
   }
 
   return (
-    <section className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+    <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 min-h-[428px]">
       {projects.map((project, id) => (
         <ProjectCard key={id} project={project} />
       ))}

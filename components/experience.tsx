@@ -33,7 +33,8 @@ export default function Experience() {
         <TabsTrigger value="education"><LocaleText name="tabs.education" /></TabsTrigger>
       </TabsList>
       <TabsContent value="work">
-        <Timeline experience={translateExperience(career, 'career')}/>   </TabsContent>
+        <Timeline experience={translateExperience(career, 'career')} />   
+      </TabsContent>
       <TabsContent value="education">
         <Timeline experience={translateExperience(education, 'education')}/>
       </TabsContent>
