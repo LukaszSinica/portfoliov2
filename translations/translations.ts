@@ -83,7 +83,10 @@ export const translations = {
         }
       }
     },
-    "viewmore": "view more"
+    "viewmore": "view more",
+    not_found_title: "404",
+    not_found_message: "Page not found",
+    go_back_home: "Go back to home page",
   },
   pl: {
     hi: 'Cześć mam na imię Łukasz',
@@ -169,6 +172,10 @@ export const translations = {
         }
       }
     },
-    "viewmore": "zobacz więcej"
+    "viewmore": "zobacz więcej",
+    not_found_title: "404",
+    not_found_message: "Strona nie znaleziona",
+    go_back_home: "Wróć do strony głównej",
+
   }
 };
