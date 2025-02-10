@@ -20,6 +20,19 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Łukasz Sinica - Fullstack Developer",
   description: "Portfolio of Łukasz Sinica - Fullstack Developer",
+  keywords: ["Łukasz Sinica", "Fullstack Developer", "Portfolio", "Web Development"],
+  openGraph: {
+    title: "Łukasz Sinica - Fullstack Developer",
+    description: "Portfolio of Łukasz Sinica - Fullstack Developer",
+    images: [
+      {
+        url: "/face.jpg",
+        width: 800,
+        height: 600,
+        alt: "Łukasz Sinica - Fullstack Developer",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
