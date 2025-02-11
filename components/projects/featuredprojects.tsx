@@ -11,7 +11,7 @@ export default function FeaturedProjects() {
     <section className="flex flex-col gap-8">
         <div className="flex justify-between">
         <span className='title text-2xl sm:text-3xl'>
-          <Title name={'projects.Featured'} />
+          <Title name={'projects.Featured'} level='h2'/>
         </span>
         <LinkWithIcon
             href="/projects"

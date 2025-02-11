@@ -4,13 +4,14 @@ import React from 'react'
 
 interface TitleComponentProps extends TitleProps {
   styles?: string;
+  level?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 }
 
-export default function Title({name, styles}: TitleComponentProps) {
+export default function Title({name, styles, level = 'h1'}: TitleComponentProps) {
   const { t } = useTranslation();
-
+  const Heading = level;
   return (
-    <h1 className={`title ${styles}`}>{t(name)}</h1>
+    <Heading className={`title ${styles}`}>{t(name)}</Heading>
 
   )
 }

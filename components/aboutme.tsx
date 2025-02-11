@@ -11,7 +11,7 @@ export default function AboutMe() {
     <section className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
         <div>
         <section className="min-h-[120px] max-h-[250px]">            
-          <Title name="hi" styles="font-bold text-xl pb-2"/>
+          <Title name="hi" styles="font-bold pb-2 text-2xl"/>
             <p><LocaleText name="about_me_1"/></p>
             <p><LocaleText name="about_me_2"/></p>
           </section>
