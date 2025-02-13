@@ -12,7 +12,6 @@ import Link from "next/link";
 import Icon from "@/components/icon";
 import MarkdownLocale from "../ui/markdownlocale";
 import LocaleText from "../ui/localeText";
-import { Carousel } from "../ui/carousel";
 import { ProjectsCarousel } from "./projectsCarousel";
 
 interface Props {
