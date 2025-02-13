@@ -12,19 +12,25 @@ import Link from "next/link";
 import Icon from "@/components/icon";
 import MarkdownLocale from "../ui/markdownlocale";
 import LocaleText from "../ui/localeText";
+import { Carousel } from "../ui/carousel";
+import { ProjectsCarousel } from "./projectsCarousel";
 
 interface Props {
   project: Project;
+  carousel?: boolean;
 }
 
-export function ProjectCard({ project }: Props) {
+export function ProjectCard({ project, carousel = false }: Props) {
 
-  const { name, href, image, tags, links } = project;
+  const { name, href, image, images, tags, links } = project;
 
   return (
     <Card className="flex flex-col">
       <CardHeader>
-        {image && (
+        {
+        images && images.length > 0 && carousel ? 
+        <ProjectsCarousel images={images}/> :
+        image && (
           <Link href={href || image}>
             <Image
               src={image}
