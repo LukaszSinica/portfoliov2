@@ -27,7 +27,7 @@ export function ProjectCard({ project, carousel = false }: Props) {
     <Card className="flex flex-col">
       <CardHeader>
         {
-        images && images.length > 0 && carousel ? 
+        images && images.length > 1 && carousel ? 
         <ProjectsCarousel images={images}/> :
         image && (
           <Link href={href || image}>

@@ -26,7 +26,7 @@ export function ProjectsCarousel({images}: {images: ImageMeta[]}) {
                     alt={image.alt}
                     width={1200}
                     height={200}
-                    className="w-full h-full object-fill"                  
+                    className="w-full h-full object-fill rounded-xl"                  
                     />
                 </CardContent>
               </Card>
