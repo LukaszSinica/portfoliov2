@@ -87,6 +87,22 @@ export const translations = {
     not_found_title: "404",
     not_found_message: "Page not found",
     go_back_home: "Go back to home page",
+    send_email: "Send email",
+    email_or: "or you can use the form",
+    email_form: {
+      your_name: 'Your Name',
+      your_email: 'Your Email',
+      your_message: 'Your Message',
+      responses: {
+        success: 'Message sent successfully',
+        error: 'Something went wrong, try again'
+      },
+      errors: {
+        'Name is required': 'Name is required',
+        'Invalid email': 'Invalid email',
+        'Message must be at least 10 characters': 'Message must be at least 10 characters',
+      }
+    }
   },
   pl: {
     hi: 'Cześć mam na imię Łukasz',
@@ -138,7 +154,7 @@ export const translations = {
         title: "Technik informatyk",
         start: "Wrz 2014",
         end: "Cze 2018"
-      }
+      },
     },
     career: {
       koni_it: {
@@ -176,6 +192,22 @@ export const translations = {
     not_found_title: "404",
     not_found_message: "Strona nie znaleziona",
     go_back_home: "Wróć do strony głównej",
-
+    send_email: "Wyślij email",
+    email_or: "lub skorzystaj z formularza",
+    email_form: {
+      your_name: 'Twoje Imię',
+      your_email: 'Twój Email',
+      your_message: 'Twoja Wiadomość',
+      responses: {
+        success: 'Wiadomość została wysłana pomyślnie',
+        error: 'Coś poszło nie tak, spróbuj ponownie'
+      },
+      errors: {
+        'Name is required': 'Imię jest wymagane',
+        'Invalid email': 'Nieprawidłowy email',
+        'Message must be at least 10 characters': 'Wiadomość musi mieć co najmniej 10 znaków',
+      }
+    },
+    
   }
 };

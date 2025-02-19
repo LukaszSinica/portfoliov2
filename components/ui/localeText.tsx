@@ -2,10 +2,14 @@
 import { TitleProps, useTranslation } from '@/lib/utils';
 import React from 'react'
 
-export default function LocaleText({name}: TitleProps) {
+interface LocaleTextComponentProps extends TitleProps {
+    styles?: string;
+}
+
+export default function LocaleText({name, styles}: LocaleTextComponentProps) {
     const { t } = useTranslation();
 
     return (
-        <span>{t(name)}</span>
+        <span className={styles}>{t(name)}</span>
     )
 }

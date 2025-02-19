@@ -34,7 +34,7 @@ export default function AboutMe() {
           </section>
         </div>
         <Image
-            alt="Next.js Logo"
+            alt="Łukasz Sinica Face"
             className="rounded-full"
             priority
             src="/face.jpg"
