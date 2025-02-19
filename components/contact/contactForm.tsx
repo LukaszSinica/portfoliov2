@@ -78,8 +78,8 @@ export default function ContactForm() {
                 }
           </Button>
 
-          {status === "success" && <p className="text-green-500 text-center text-sm">{t("form.responses.success")}</p>}
-          {status === "error" && <p className="text-red-500 text-center text-sm">{t("form.responses.error")}</p>}
+          {status === "success" && <p className="text-green-500 text-center text-sm">{t("email_form.responses.success")}</p>}
+          {status === "error" && <p className="text-red-500 text-center text-sm">{t("email_form.responses.error")}</p>}
         </form>
   );
 }
