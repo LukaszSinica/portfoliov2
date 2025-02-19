@@ -20,7 +20,13 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Łukasz Sinica - Fullstack Developer",
   description: "Portfolio of Łukasz Sinica - Fullstack Developer",
-  keywords: ["Łukasz Sinica", "Fullstack Developer", "Portfolio", "Web Development"],
+  keywords: ["Łukasz Sinica", "Fullstack Developer",
+     "Portfolio", "Web Development","JavaScript", "TypeScript", "React", 
+     "Next.js", "Node.js", "Spring Boot", "Java", "SQL", "MongoDB", "Docker", 
+     "CI/CD", "REST API", "GraphQL", "Microservices", "Software Engineer", "Web Developer",
+     "App Development", "Frontend Developer", "Backend Developer", "Cloud Computing", "DevOps", 
+     "Łukasz Sinica Projects", "Łukasz Sinica Portfolio", "Freelance Web Developer", "Hire a Fullstack Developer", 
+     "Poland Web Developer", "European Fullstack Developer", "Sinica"],
   openGraph: {
     title: "Łukasz Sinica - Fullstack Developer",
     description: "Portfolio of Łukasz Sinica - Fullstack Developer",
