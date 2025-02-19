@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
@@ -30,7 +30,7 @@ export default function ContactForm() {
   } = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
   });
-  console.log(errors.name)
+
   const onSubmit = async (data: ContactFormData) => {
     setStatus("loading");
     try {
@@ -46,7 +46,7 @@ export default function ContactForm() {
       } else {
         setStatus("error");
       }
-    } catch (error) {
+    } catch {
       setStatus("error");
     }
   };
