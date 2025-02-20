@@ -39,5 +39,5 @@ export const useTranslation = () => {
     return resolveNestedKey(localizedStrings, key) || key;
   };
 
-  return { t };
+  return { t, locale };
 };

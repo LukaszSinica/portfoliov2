@@ -1,10 +1,10 @@
-import { Button } from '@/components/ui/button'
-import { Download, GithubIcon, Linkedin, Mail } from 'lucide-react'
+import { GithubIcon, Linkedin, Mail } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import Image from "next/image";
 import Title from './ui/title';
 import LocaleText from './ui/localeText';
+import ResumeButton from './ui/resumeButton';
 
 export default function AboutMe() {
   return (
@@ -16,12 +16,7 @@ export default function AboutMe() {
             <p><LocaleText name="about_me_2"/></p>
           </section>
           <section className="mt-8 flex items-center gap-8 min-h-[50px]">
-              <Link href="/resume_en.pdf" target="_blank">
-              <Button variant="outline" className="hover:dark:text-white">
-                  <LocaleText name="resume"/>
-                  <Download className="dark:text-white" size={24}/>
-              </Button>
-              </Link>
+              <ResumeButton/>
               <Link href="https://github.com/LukaszSinica" target="_blank" rel="noopener noreferrer">
               <GithubIcon  size={24} className="dark:text-gray-400 hover:dark:text-white" />
               </Link>
