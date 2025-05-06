@@ -42,3 +42,19 @@ export type Experience = z.infer<typeof experience>;
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
 export const socialSchema = z.object({ socials: z.array(iconLink) });
+
+const techItem = z.object({
+  avatar: z.string(),
+  title: z.string(),
+  years: z.number(),
+});
+
+const techStack = z.object({
+  frontend: z.array(techItem),
+  backend: z.array(techItem),
+  tools: z.array(techItem),
+});
+
+export const techStackSchema = z.object({ techStack });
+export type TechItem = z.infer<typeof techItem>;
+export type TechStack = z.infer<typeof techStack>;

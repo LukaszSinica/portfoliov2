@@ -82,7 +82,7 @@ body {
     padding-right: 2rem;
     display: flex;
     min-height: 100vh;
-    max-width: 48rem;
+    max-width: 54rem;
     flex-direction: column;
   }
 }

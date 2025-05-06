@@ -41,3 +41,15 @@ export const useTranslation = () => {
 
   return { t, locale };
 };
+
+export function getYearText(years: number, locale: string = 'en') {
+  if (locale === 'pl') {
+    if (years === 1) return 'rok';
+    if (years % 10 >= 2 && years % 10 <= 4 && (years % 100 < 10 || years % 100 >= 20)) {
+      return 'lata';
+    }
+    return 'lat';
+  }
+  
+  return years === 1 ? 'year' : 'years';
+}

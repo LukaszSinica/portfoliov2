@@ -3,16 +3,20 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 type Locale = "en" | "pl"; 
+type Category = 'frontend' | 'backend' | 'tools'
 
 interface LocaleContextValue {
   locale: Locale;
   setLocale: (locale: Locale) => void;
+  activeCategory: Category;
+  setActiveCategory: (locale: Category) => void;
 }
 
 const LocaleContext = createContext<LocaleContextValue | undefined>(undefined);
 
 export const LocaleProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [locale, setLocaleState] = useState<Locale>("en");
+  const [activeCategory, setActiveCategory] = useState<Category>('frontend')
 
   useEffect(() => {
     const storedLocale = localStorage.getItem("locale") as Locale;
@@ -27,7 +31,7 @@ export const LocaleProvider: React.FC<{ children: React.ReactNode }> = ({ childr
   };
 
   return (
-    <LocaleContext.Provider value={{ locale, setLocale }}>
+    <LocaleContext.Provider value={{ locale, setLocale, activeCategory, setActiveCategory }}>
       {children}
     </LocaleContext.Provider>
   );

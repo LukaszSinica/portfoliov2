@@ -102,6 +102,12 @@ export const translations = {
         'Invalid email': 'Invalid email',
         'Message must be at least 10 characters': 'Message must be at least 10 characters',
       }
+    },
+    tech: {
+      title: "Tech Stack",
+      frontend: "Frontend",
+      backend: "Backend",
+      tools: "Tools",
     }
   },
   pl: {
@@ -186,7 +192,7 @@ export const translations = {
           responsible_for_creating_frontend: "Odpowiedzialny za tworzenie komponentów frontendowych zgodnie z wizualizacjami dostarczonymi przez zespół graficzny przy użyciu React.js",
           project_and_developed_system: "Projektowanie i rozwijanie systemu do moderowania awatarów na stronie, co poprawiło zarządzanie treścią na stronie"
         }
-      }
+      },
     },
     "viewmore": "zobacz więcej",
     not_found_title: "404",
@@ -208,6 +214,11 @@ export const translations = {
         'Message must be at least 10 characters': 'Wiadomość musi mieć co najmniej 10 znaków',
       }
     },
-    
+    tech: {
+      title: "Tech Stack",
+      frontend: "Frontend",
+      backend: "Backend",
+      tools: "Narzędzia",
+    }
   }
 };

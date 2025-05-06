@@ -1,0 +1,90 @@
+{
+  "techStack": {
+    "frontend": [
+      {
+        "avatar": "/techstack/react.svg",
+        "title": "React",
+        "years": 1.5
+      },
+      {
+        "avatar": "/techstack/typescript.svg",
+        "title": "TypeScript",
+        "years": 1
+      }, 
+      {
+        "avatar": "/techstack/tailwindcss.svg",
+        "title": "Tailwind CSS",
+        "years": 1
+      }, 
+      {
+        "avatar": "/techstack/javascript.svg",
+        "title": "Javascript",
+        "years": 2
+      }, 
+      {
+        "avatar": "/techstack/nextjs.svg",
+        "title": "Next.js",
+        "years": 1
+      }, 
+      {
+        "avatar": "/techstack/jsp.svg",
+        "title": "JSP",
+        "years": 0.6
+      }
+    ],
+    "backend": [
+      {
+        "avatar": "/techstack/php.svg",
+        "title": "PHP",
+        "years": 2
+      }, 
+      {
+        "avatar": "/techstack/symfony.png",
+        "title": "Symfony",
+        "years": 1
+      }, 
+      {
+        "avatar": "/techstack/laminas.svg",
+        "title": "Laminas",
+        "years": 0.5
+      }, 
+      {
+        "avatar": "/techstack/mysql.svg",
+        "title": "MySQL",
+        "years": 2
+      }, 
+      {
+        "avatar": "/techstack/java.svg",
+        "title": "Java",
+        "years": 0.8
+      }
+    ],
+    "tools": [
+      {
+        "avatar": "/techstack/git.svg",
+        "title": "Git",
+        "years": 3
+      },
+      {
+        "avatar": "/techstack/github.svg",
+        "title": "Github",
+        "years": 3
+      },
+      {
+        "avatar": "/techstack/docker.svg",
+        "title": "Docker",
+        "years": 1
+      },
+      {
+        "avatar": "/techstack/oracle.svg",
+        "title": "Oracle CI",
+        "years": 0.5
+      },
+      {
+        "avatar": "/techstack/ubuntu.svg",
+        "title": "Linux (Ubuntu)",
+        "years": 0.5
+      }
+    ]
+  }
+}
