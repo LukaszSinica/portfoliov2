@@ -1,10 +1,10 @@
-import type { NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
 import axios from 'axios';
 
 const API_URL = 'http://lsvpndebian.duckdns.org:8081/api/posts/featured';
 const API_KEY = process.env.API_KEY;
 
-export default async function GET(res: NextApiResponse) {
+export default async function GET(req: NextApiRequest, res: NextApiResponse) {
   
   try {
     const { data } = await axios.get(API_URL, {
