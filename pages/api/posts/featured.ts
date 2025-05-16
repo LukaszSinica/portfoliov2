@@ -4,8 +4,8 @@ import axios, { AxiosError } from 'axios';
 const API_URL = 'http://lsvpndebian.duckdns.org:8081/api/posts/featured';
 const API_KEY = process.env.API_KEY;
 
-export default async function GET(req: Request, res: NextApiResponse) {
-    console.log('hello')
+export default async function GET(res: NextApiResponse) {
+  
   try {
     const { data } = await axios.get(API_URL, {
       headers: {
