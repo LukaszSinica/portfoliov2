@@ -20,7 +20,7 @@ export default async function GET(req: NextApiRequest, res: NextApiResponse) {
     });
 
     res.status(200).json(response.data);
-  } catch (err) {
+  } catch (err: AxiosError | unknown) {
     if (axios.isAxiosError(err)) {
       console.error('Proxy error (posts):', err.response?.data || err.message);
       res.status(err.response?.status || 500).json({ error: 'Failed to fetch posts' });
