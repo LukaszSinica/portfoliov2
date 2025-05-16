@@ -101,14 +101,19 @@ export const translations = {
         'Name is required': 'Name is required',
         'Invalid email': 'Invalid email',
         'Message must be at least 10 characters': 'Message must be at least 10 characters',
-      }
+      },
+      send_email: 'Send email'
     },
     tech: {
       title: "Tech Stack",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Tools",
-    }
+    },
+    recent_posts: 'Recent Posts',
+    view_all_posts: 'View All Posts',
+    blog: 'Blog',
+    search_posts: 'Search posts...',
   },
   pl: {
     hi: 'Cześć mam na imię Łukasz',
@@ -201,24 +206,29 @@ export const translations = {
     send_email: "Wyślij email",
     email_or: "lub skorzystaj z formularza",
     email_form: {
-      your_name: 'Twoje Imię',
-      your_email: 'Twój Email',
-      your_message: 'Twoja Wiadomość',
+      your_name: 'Twoje imię',
+      your_email: 'Twój email',
+      your_message: 'Twoja wiadomość',
       responses: {
-        success: 'Wiadomość została wysłana pomyślnie',
+        success: 'Wiadomość wysłana pomyślnie',
         error: 'Coś poszło nie tak, spróbuj ponownie'
       },
       errors: {
         'Name is required': 'Imię jest wymagane',
         'Invalid email': 'Nieprawidłowy email',
-        'Message must be at least 10 characters': 'Wiadomość musi mieć co najmniej 10 znaków',
-      }
+        'Message must be at least 10 characters': 'Wiadomość musi mieć co najmniej 10 znaków'
+      },
+      send_email: 'Wyślij email'
     },
     tech: {
       title: "Tech Stack",
       frontend: "Frontend",
       backend: "Backend",
       tools: "Narzędzia",
-    }
+    },
+    recent_posts: 'Ostatnie Wpisy',
+    view_all_posts: 'Zobacz Wszystkie',
+    blog: 'Blog',
+    search_posts: 'Szukaj wpisów...',
   }
 };

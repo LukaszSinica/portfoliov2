@@ -5,6 +5,8 @@ import Header from "../components/header";
 import { ThemeProvider } from "./themeProvider";
 import Footer from "@/components/footer";
 import { LocaleProvider } from "./localeprovider";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import Providers from "./queryprovider";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -51,18 +53,11 @@ export default function RootLayout({
     <html>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-          <LocaleProvider>
-            <Header/>
-            {children}
-            <Footer/>
-          </LocaleProvider>
-        </ThemeProvider>
+         <Providers>
+          <Header/>
+          {children}
+          <Footer/>
+        </Providers>
       </body>
     </html>
   );

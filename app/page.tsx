@@ -1,5 +1,6 @@
 import AboutMe from "@/components/aboutme";
 import Experience from "@/components/experience";
+import FeaturedPosts from "@/components/posts/featuredposts";
 import FeaturedProjects from "@/components/projects/featuredprojects";
 import TechStack from "@/components/techstack";
 
@@ -11,6 +12,7 @@ export default function Home() {
        <TechStack/>
        <Experience/>
        <FeaturedProjects/>
+       <FeaturedPosts />
       </article>
     </main>
   );
