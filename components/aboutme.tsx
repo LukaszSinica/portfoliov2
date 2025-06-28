@@ -10,10 +10,15 @@ export default function AboutMe() {
   return (
     <section className="flex flex-col items-start gap-8 md:flex-row md:items-center md:justify-between">
         <div>
-        <section className="min-h-[120px] max-h-[250px]">            
+        <section className="min-h-[120px]">            
           <Title name="hi" styles="font-bold pb-2 text-2xl"/>
+          <div className='flex-col flex items-start gap-4  text-justify'>
             <p><LocaleText name="about_me_1"/></p>
             <p><LocaleText name="about_me_2"/></p>
+            <p><LocaleText name="about_me_3"/></p>
+            <p><LocaleText name="about_me_4"/></p>
+          </div>
+
           </section>
           <section className="mt-8 flex items-center gap-8 min-h-[50px]">
               <ResumeButton/>

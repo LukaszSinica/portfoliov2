@@ -1,8 +1,10 @@
 export const translations = {
   en: {
     hi: 'Hi Lucas here',
-    about_me_1: 'I am a 26-year-old software developer from Poland.',
-    about_me_2: 'I like to develop full-stack, play games and trying out new things in life.',
+    about_me_1: "I'm a 26-year-old software developer from Poland.",
+    about_me_2: "I'm passionate about full-stack development, and I love bringing ideas to life by building clean, functional, and scalable applications. Whether it’s crafting a smooth user interface or diving deep into backend logic, I enjoy the entire development process.",
+    about_me_3: "Outside of coding, I’m a gamer at heart — I find games not only entertaining but also inspiring, especially when it comes to design and mechanics. I also enjoy exploring new technologies, tools, and experiences that push me to grow both personally and professionally. Whether it's picking up a new framework, diving into a new hobby, or simply trying something out of my comfort zone, I’m always curious and eager to learn.",
+    about_me_4: "I value creativity, continuous improvement, and meaningful collaboration — both in code and in life.",
     my_projects: 'My projects.',
     contact_me: 'Contact me.',
     resume: 'resume',
@@ -118,7 +120,9 @@ export const translations = {
   pl: {
     hi: 'Cześć mam na imię Łukasz',
     about_me_1: 'Jestem 26-letnim programistą z Polski.',
-    about_me_2: 'Lubię rozwijać się w full-stack, grać w gry i próbować nowych rzeczy.',
+    about_me_2: 'Jestem pasjonatem programowania full-stack i uwielbiam wcielać pomysły w życie, budując czyste, funkcjonalne i skalowalne aplikacje. Niezależnie od tego, czy chodzi o tworzenie płynnego interfejsu użytkownika, czy też zagłębianie się w logikę backendu, lubię cały proces rozwoju.',
+    about_me_3: 'Poza kodowaniem, w głębi serca jestem graczem - uważam, że gry są nie tylko zabawne, ale także inspirujące, zwłaszcza jeśli chodzi o projektowanie i mechanikę. Lubię też odkrywać nowe technologie, narzędzia i doświadczenia, które popychają mnie do rozwoju zarówno osobistego, jak i zawodowego. Niezależnie od tego, czy chodzi o wybranie nowego frameworka, zanurzenie się w nowym hobby, czy po prostu spróbowanie czegoś poza moją strefą komfortu, zawsze jestem ciekawy i chętny do nauki.',
+    about_me_4: 'Cenię sobie kreatywność, ciągłe doskonalenie i konstruktywną współpracę - zarówno w kodzie, jak i w życiu.',
     resume: 'CV',
     my_projects: 'Moje projekty.',
     contact_me: 'Skontaktuj się ze mną.',
