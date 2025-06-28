@@ -13,8 +13,10 @@ export default function Header() {
             <Link href={"/projects"}><LocaleText name={'header.projects'}/></Link>
             <Link href={"/contact"}><LocaleText name={'header.contact'}/></Link>
        </nav>
-       <LocalizeToggler/>
-       <ThemeToggle/>
+       <div className='flex items-center justify-end gap-4'>
+        <LocalizeToggler/>
+        <ThemeToggle/>
+       </div>
     </header>
   )
 }
