@@ -24,6 +24,9 @@ export const translations = {
       "Portfolio 2024": {
         description: "Portfolio 2024 is the latest version of my portfolio in Next.js format. It was created to showcase my latest technologies and tools, as well as to showcase my experiences and achievements."
       },
+      "Blog API": {
+        description: "A RESTful API for a blog page on my portfolio built with PHP and Symfony Framework, featuring user authentication, post management and image uploads."
+      },
       "Source": "Source",
       "Website": "Website",
       "Featured": "featured projects",
@@ -141,6 +144,9 @@ export const translations = {
       },
       "Portfolio 2024": {
         description: "Portfolio 2024 to ostatnia wersja mojego portfolio w formacie Next.js. Zostało ono stworzone w celu pokazania moich najnowszych technologii i narzędzi, jak również pokazania moich doświadczeń i wyników."
+      },
+      "Blog API": {
+        description: "RESTful API dla strony blogowej na moim portfolio zbudowane w PHP i Symfony Framework, z funkcjami uwierzytelniania użytkowników, zarządzania postami i przesyłania obrazów."
       },
       "Source": "Kod źródłowy",
       "Website": "Strona internetowa",

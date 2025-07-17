@@ -8,7 +8,7 @@ export default function MarkdownLocale({name}: TitleProps) {
     const { t } = useTranslation();
 
     return (
-        <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
+        <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert text-justify">
             {t(name)}
         </Markdown>
 

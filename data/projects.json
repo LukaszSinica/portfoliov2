@@ -1,6 +1,26 @@
 {
     "projects": [
       {
+        "name": "Blog API",
+        "description": "A RESTful API for a blog page on my portfolio built with PHP and Symfony Framework, featuring user authentication, post management and image uploads.",
+        "image": "/blog.jpg",
+        "images": [
+        ],
+        "tags": [
+          "PHP",
+          "Symfony Framework",
+          "MySQL",
+          "Twig"
+        ],
+        "links": [
+          {
+            "name": "Source",
+            "href": "https://github.com/LukaszSinica/post_api",
+            "icon": "github"
+          }
+        ]
+      },
+      {
         "name": "Sudoku game",
         "description": "Java-based Sudoku game using JavaFX for its user interface featuring customizable difficulty levels",
         "image": "/sudoku.png",
